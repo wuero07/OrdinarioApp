@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonSales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir a Ventas" />
+
+    <Button
+        android:id="@+id/buttonInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir a Inventario"
+        android:layout_below="@id/buttonSales"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:layout_below="@id/buttonInventory"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
